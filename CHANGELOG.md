@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.0.0](https://www.github.com/yargs/yargs/compare/v14.2.0...v15.0.0) (2019-10-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* yargs-parser@16.0.0 drops support for Node 6
+* drop Node 6 support (#1461)
+* remove package.json-based parserConfiguration (#1460)
+
+### Bug Fixes
+
+* **docs:** TypeScript import to prevent a future major release warning ([#1441](https://www.github.com/yargs/yargs/issues/1441)) ([b1b156a](https://www.github.com/yargs/yargs/commit/b1b156a3eb4ddd6803fbbd56c611a77919293000))
+* stop-parse was not being respected by commands ([#1459](https://www.github.com/yargs/yargs/issues/1459)) ([12c82e6](https://www.github.com/yargs/yargs/commit/12c82e62663e928148a7ee2f51629aa26a0f9bb2))
+* update to yargs-parser with fix for array default values ([#1463](https://www.github.com/yargs/yargs/issues/1463)) ([ebee59d](https://www.github.com/yargs/yargs/commit/ebee59d9022da538410e69a5c025019ed46d13d2))
+
+
+### Miscellaneous Chores
+
+* drop Node 6 support ([#1461](https://www.github.com/yargs/yargs/issues/1461)) ([2ba8ce0](https://www.github.com/yargs/yargs/commit/2ba8ce05e8fefbeffc6cb7488d9ebf6e86cceb1d))
+
+
+### Code Refactoring
+
+* remove package.json-based parserConfiguration ([#1460](https://www.github.com/yargs/yargs/issues/1460)) ([0d3642b](https://www.github.com/yargs/yargs/commit/0d3642b6f829b637938774c0c6ce5f6bfe1afa51))
+
 ## [14.2.0](https://github.com/yargs/yargs/compare/v14.1.0...v14.2.0) (2019-10-07)
 
 
